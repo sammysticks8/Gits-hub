@@ -1,0 +1,804 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+
+}
+
+header {
+    background-color: rgb(242, 243, 244);
+    /* display: flex; */
+    height: 7rem;
+}
+
+.kitten {
+    margin-top: 1.2rem;
+    margin-left: 1.2rem;
+}
+
+p {
+    color: black;
+}
+
+.product {
+    display: flex;
+    margin-left: 1.2rem;
+    margin-top: 1.65rem;
+}
+
+.produce {
+    margin-right: 0.25rem;
+}
+
+.solutions {
+    display: flex;
+    margin-left: 0.8rem;
+}
+
+.rel {
+    display: none;
+}
+
+.solute {
+    margin-right: 0.25rem;
+}
+
+.search-bar {
+    display: flex;
+    gap: 1rem;
+    padding-left: 0.75rem; 
+    width: 19rem;
+    margin-left: 20rem;
+    height: 2rem;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 0.4rem;
+    margin-top: 1.25rem;
+}
+
+.search {
+    border: 0.2rem;
+    background-color: transparent;
+    /* width: 16rem; */
+    color: #fff;
+}
+
+.globe {
+    margin-left: -0.25rem;
+}
+
+.info {
+    margin-left: 3.7rem;
+}
+
+button {
+    /* width: 50%; */
+    height: 2rem;
+    border: 1px solid grey;
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: center;   
+    background-color: transparent;
+    border-width: 0.05rem;
+    font-size: 1rem;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.home_buttons {
+    margin-left: 2rem;
+    display: flex;
+}
+
+.sign_on {
+    border: none;
+}
+
+button:hover {
+    outline: 2px solid rgb(225, 220, 220);
+    background-color: rgb(225, 220, 220);
+    cursor: pointer;
+}
+
+.naval {
+    height: 1.7rem;
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+}
+
+.cross {
+    margin-left: 2rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.reel {
+   margin-left: 1rem;
+   padding-left: 0.4rem;
+   padding-right: 0.4rem;
+}
+
+.rex {
+   margin-left: 1rem;
+   padding-left: 0.4rem;
+   padding-right: 0.4rem;
+}
+
+.avatar {
+    border-radius: 150px;
+}
+
+.second_header {
+    display: flex;
+
+}
+
+.code {
+    border: none;
+    margin-left: 1rem;
+    gap: 0.5rem;
+        
+}
+
+.issues {
+    margin-left: 0rm;
+    border: none;
+    gap: 0.5rem;
+}
+
+.insights {
+    margin-left: 0rm;
+    border: none;
+    gap: 0.5rem;
+   
+}
+
+.actions {
+    margin-left: 0rm;
+    border: none;
+    gap: 0.5rem;
+}
+
+.projects {
+    margin-left: 0rm;
+    border: none;
+    gap: 0.5rem;
+
+}
+
+.secure {
+    margin-left: 0rm;
+    border: none;
+    gap: 0.5rem;
+}
+
+.sight {
+    margin-left: 0rm;
+    border: none;
+    gap: 0.5rem;
+}
+
+.inner {
+    font-size: 0.88rem;
+    font-weight: lighter;
+}
+
+.eish {
+    display: none;
+}
+
+.frontend {
+    display: flex;
+    align-items: center;
+    
+}
+
+.pub {
+    height: 1rem;
+    width: 3.5rem;
+    font-size: 0.8rem;
+    justify-content: center;
+    margin-left: 0.55rem;
+}
+
+.font {
+    font-size: 1.2rem;
+    margin-top: 1.4rem;
+    margin-left: 0rem;
+}
+
+.skilled {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4.5rem;
+    border-bottom: 1px solid rgb(225, 220, 220);
+    padding-bottom: 1.3rem;
+    margin-right: 6rem;
+}
+
+.fork {
+    display: flex;
+    gap: 0.6rem;
+}
+
+.oval {
+    margin-top: 1rem;
+    border-radius: 50px;
+    margin-right: 0.6rem;
+}
+
+.star {
+    height: 1.35rem;
+    font-size: 0.9rem;
+    background-color: rgb(242, 243, 244);
+    gap: 0.4rem;
+}
+
+.yatch {
+    font-size: 0.75rem;
+}
+
+.track {
+    display: none;
+}
+
+.rattle {
+    display: none;
+}
+
+.repos {
+    display: none;
+}
+
+.brand {
+    display: none;
+}
+.inter {
+    display: none;
+}
+
+.middle {
+    display: flex;
+    margin-top: 0.6rem;
+    /* margin-left: 4.5rem; */
+    /* justify-content: space-evenly; */
+    
+}
+
+
+
+.aim {
+    margin-top: 1.2rem;
+    gap: 0.25rem;
+    height: 1.5rem;
+}
+
+.ren {
+    font-size: 0.8rem;
+}
+
+.naim {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 0.1rem;
+    margin-left: 4.5rem;
+    
+}
+.brainy {
+    border: none;
+    gap: 0.5rem;
+}
+.file {
+    margin-left: 8rem;
+    width: 15rem;
+    height: 1.8rem;
+    margin-right: 0.5rem;
+}
+.plus {
+    margin-right: 0.5rem;
+    height: 1.8rem;
+    margin-left: 0rem;
+}
+.dell {
+    background-color: green;
+    color: #fff;
+    height: 1.8rem;
+}
+.del {
+    color: white;
+}
+
+.tab {
+    margin-top: 1rem;
+    height: 170vh;
+    width: 51.5rem;
+    margin-left: 4.5rem;
+    display: block;
+    border: 0.05rem solid rgb(207, 204, 204);
+    border-radius: 0.5rem;
+}
+.right_side {
+    display: block;
+        
+}
+
+.left_side {
+    margin-left: 1.6rem;
+    margin-top: 1.7rem;
+}
+
+.cheet {
+    margin-top: 1.5rem;
+}
+
+.triads {
+    display: flex;
+    gap: 0.3rem;
+    
+}
+
+.java {
+    height: 1.2rem;
+    font-size: 0.8rem;
+    border-radius: 0.8rem;
+    color: rgb(0, 162, 255);
+    background-color: rgb(219, 231, 245);
+    
+}
+
+.avat {
+    padding-top: 0rem;
+    border-radius: 50px;
+    margin-right: 0.3rem;
+    padding-bottom: 0rem;
+}
+
+.ting {
+    gap: 0.6rem;
+    display: block;
+    margin-top: 1.2rem;
+}
+
+.dull {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    border-bottom: 0.05rem solid rgb(243, 239, 239);
+    padding-bottom: 1rem;
+}
+
+h4 {
+    margin-top: 1rem;
+}
+
+.ses {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    border-bottom: 0.05rem solid rgb(235, 231, 231);
+    padding-bottom: 1rem;
+}
+
+.baka {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    border-bottom: 0.05rem solid rgb(240, 236, 236);
+
+}
+
+.sir {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.barca {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgb(207, 204, 204);
+    padding-bottom: 1.5rem;
+}
+
+.boxes {
+    display: flex;
+    margin-top: 1rem;
+    gap: 0.15rem;
+}
+
+.box_1 {
+    height: 0.45rem;
+    width: 7rem;
+    background-color: rgb(233, 233, 4);
+    border-radius: 1rem;
+}
+
+.box_2 {
+    height: 0.45rem;
+    width: 5rem;
+    background-color: rgb(233, 80, 4);
+}
+
+.box_3 {
+    height: 0.45rem;
+    width: 4rem;
+    background-color: rgb(99, 4, 233);
+    /* border-style: 1rem; */
+}
+
+.circles {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-top: 0.7rem;
+}
+
+.circ_1 {
+    height: 0.45rem;
+    width: 0.45rem;
+    background-color: rgb(233, 233, 4);
+    border-radius: 1rem;
+}
+
+.sip {
+    font-size: 0.75rem;
+}
+
+.percentiles {
+    color: grey;
+}
+
+.circular {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.circ_2 {
+    height: 0.45rem;
+    width: 0.45rem;
+    background-color:rgb(233, 80, 4);
+    border-radius: 1rem;
+}
+
+.circ_3 {
+    height: 0.45rem;
+    width: 0.45rem;
+    background-color: rgb(99, 4, 233);
+    border-radius: 1rem;
+}
+
+.tab_2 {
+    margin-top: 1rem;
+    height: 75vh;
+    width: 51.5rem;
+    margin-left: 4.5rem;
+    display: block;
+    border: 0.05rem solid rgb(207, 204, 204);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.read_me {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 1rem;
+    
+}
+
+.pencil {
+    display: flex;
+    margin-top: 1rem;
+    padding-bottom: 0.7rem;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.05rem solid rgb(207, 204, 204);
+    
+}
+
+.pen {
+    margin-right: 1rem;
+    gap: 1.5rem;
+    display: flex;
+}
+
+h1 {
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.05rem solid rgb(207, 204, 204);
+    /* font-weight: lighter; */
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.05rem solid rgb(207, 204, 204);
+}
+
+ul {
+    list-style-type: circle black;
+    margin-left: 3.5rem;
+    margin-top: 1rem;
+}
+
+.help {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.cookies {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    margin-left: 0.7rem;
+    font-size: 0.7rem;
+    color: grey;
+    margin-top: 0rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.contri {
+    margin-bottom: 1rem;
+}
+
+.ing {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    margin-top: 0.6rem;
+    font-size: 0.9rem;
+}
+
+
+
+.sol_los {
+    margin-top: 0rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    width: 51.3rem;
+    display: flex;
+    gap: 25rem;
+    background-color: rgb(242, 243, 244);
+    height: 8vh;
+    border-radius: 0.5rem;
+    border-bottom: 1px solid grey;
+}
+.sol {
+    padding-top: 0rem;
+    display: flex;
+    
+}
+
+.vsc_savic {
+    padding-top: 0.6rem;
+    margin-bottom: 1.5rem; 
+    width: 51.3rem;
+    display: block;
+    gap: 25rem;
+    height: 6vh;
+    border-bottom: 0.05rem solid rgb(207, 204, 204);
+}
+
+.vsc_svc {
+    margin-top: 0.6rem;
+    padding-top: 0.6rem;
+    margin-bottom: 1.5rem; 
+    width: 51.3rem;
+    display: block;
+    gap: 25rem;
+    height: 6vh;
+    border-bottom: 0.05rem solid rgb(207, 204, 204);
+}
+
+.vsc {
+    padding-top: 0rem;
+    display: flex;
+    
+}
+
+.svc {
+    padding-top: 0rem;
+    display: flex;
+}
+
+.auth {
+    margin-left: 15rem;
+    font-size: 0.9rem;
+    color: grey;
+
+}
+
+.sar {
+    margin-left: 21rem;
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.cred {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    color: grey;
+    /* margin-left: 1.5rem; */
+}
+
+.icon-directory {
+    margin-left: 1.5rem;
+}
+
+@media (max-width:990px) {
+    .search {
+        display: none;
+    }
+    .info {
+        display: none;
+    }
+    .search-bar {
+        width: 2.15rem;
+    }
+    
+}
+
+@media (max-width:754px) {
+    .cross {
+        display: none;
+    }
+    .reel {
+        display: none;
+    }
+    .search-bar {
+        margin-left: 16rem;
+    }
+    .eish {
+        display: block;
+        padding: 0.5rem;
+        margin-left: 8rem;
+    }
+    .inner {
+        font-size: 0.8rem;
+    }
+    .code {
+        margin-left: 1rem;
+    }
+    .solutions {
+        margin-left: 0.7rem;
+    }
+    .sight {
+        display: none;
+    }
+    .frontend {
+        display: none;
+    }
+    .yatch {
+        display: none;
+    }
+    .sly {
+        display: none;
+    }
+    .star {
+        width: 2.5rem;         
+    }
+    .track {
+        display: block;
+        margin-top: 1.65rem;
+    }
+    .skilled {
+        display: block;
+    }
+    .rattle {
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 1.25rem;
+    }
+    .inter {
+        display: flex;
+        gap: 0.9rem;
+    }
+    .brand {
+        display: block;
+        gap: 0.5rem;
+        margin-top: 1.25rem;
+    }
+    .repos {
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:642px) {
+    .secure {
+        display: none;
+    }
+    .mie {
+        font-size: 1rem;
+        margin-top: 0rem;
+    }
+    .solutions {
+        margin-left: 0.5rem;
+    }
+    .code {
+        margin-left: 0.5rem;
+    }
+    .search-bar {
+        margin-left: 10.5rem;
+    }
+    .eish {
+        margin-left: 12rem;
+    }
+    
+}
+
+@media (max-width:642px) {
+    .projects {
+        display: none;
+    }
+    .eish {
+        margin-top: 1rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        margin-bottom: 1rem;
+        
+    }
+    .search-bar {
+        margin-left: 11rem;
+    }
+}
+
+@media (max-width:440px) {
+    .actions {
+        display: none;
+    }
+    .search {
+        margin-left: 0rem;
+    }
+    .search-bar {
+        margin-left: 0rem;
+    }
+    .eish {
+        margin-left: 5rem;
+    }
+
+}
+
+@media (max-width:390px) {
+    .eish {
+        margin-left: 2rem;
+        margin-top: 0.7rem;
+    }
+    .code {
+        margin-top: 1rem;
+    }
+    .issues {
+        margin-top: 1rem;
+    }
+    .insights {
+        margin-top: 1rem;
+    }
+    .search-bar {
+        margin-left: 0rem;
+    }
+    
+}
